@@ -5,7 +5,12 @@ import Home from './components/Home'
 import About from './components/About'
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+  }
   render() {
+    alert(this.props.location.pathname, "Path name from this.props.location.path");
+    console.log(this.props.location.pathname, "Path name from this.props.location.path")
     return (
       <div className="App">
         <header className="App-header">

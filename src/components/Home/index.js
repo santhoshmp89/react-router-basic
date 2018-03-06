@@ -1,8 +1,12 @@
-import React, {Component} from 'react';
+import React, {Component, Fragment} from 'react';
+import Menu from '../Menu';
 
 const Home = (props) => {
     return(
-        <h1>Home</h1>
+        <Fragment>
+            <Menu />
+            <h1>Home</h1>
+        </Fragment>
     )
 }
 

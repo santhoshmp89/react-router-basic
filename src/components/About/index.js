@@ -1,8 +1,12 @@
-import React, {Component} from 'react';
+import React, {Component, Fragment} from 'react';
+import Menu from '../Menu';
 
 const About = (props) => {
     return(
-        <h1>About</h1>
+        <Fragment>
+            <Menu />
+            <h1>About</h1>
+        </Fragment>
     )
 }
 
